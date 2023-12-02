@@ -35,7 +35,7 @@ $ python manage.py runserver
 
 3. Open another terminal as a separate process.
 ```
-$ rexport OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
+$ export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
 $ rq worker
 ```
 
